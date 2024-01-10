@@ -1,0 +1,167 @@
+body {
+  background: url(../assets/technology/background-technology-mobile.jpg) no-repeat center center/cover;
+}
+
+#launch,
+#space-port,
+#space-capsule {
+  background-color: white;
+  color: #0b0d17;
+}
+
+.space-launch-101 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  margin: 2rem auto;
+  font-size: 1rem;
+}
+.space-launch-101 span {
+  font-family: bellefair;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  opacity: 0.25;
+  font-size: inherit;
+}
+.space-launch-101 h5 {
+  font-size: inherit;
+}
+
+.launch-info-container {
+  display: flex;
+  flex-direction: column;
+}
+.launch-info-container .image-container {
+  width: 100%;
+}
+.launch-info-container .image-container img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.launch-info-container .launch-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.launch-info-container .launch-about .launch-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem auto;
+}
+.launch-info-container .launch-about .launch-nav a {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1rem;
+}
+.launch-info-container .launch-about .launch-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.launch-info-container .launch-about .launch-nav a:active {
+  background-color: #ffffff;
+  color: #0b0d17;
+}
+.launch-info-container .launch-about .launch-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+.launch-info-container .launch-about .launch-text .sub-header-one {
+  font-size: 1rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-family: bellefair;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background: url(../assets/technology/background-technology-tablet.jpg) no-repeat center center/cover;
+  }
+  .space-launch-101 {
+    justify-content: flex-start;
+    font-size: 1.25rem;
+    margin: 3rem 2.5rem;
+  }
+  .launch-info-container .launch-nav a {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .launch-info-container .launch-about .launch-text {
+    padding: 0 10rem 5rem;
+  }
+  .launch-info-container .launch-about .launch-text .sub-header-one {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 1050px) {
+  body {
+    background: url(../assets/technology/background-technology-desktop.jpg) no-repeat center center/cover;
+  }
+  .space-launch-101 {
+    padding-left: 8rem;
+    margin-left: 0;
+  }
+  .launch-info-container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .launch-info-container .image-container {
+    order: 2;
+    margin-left: auto;
+    height: 400px;
+  }
+  .launch-info-container .image-container.space-port {
+    content: url(../assets/technology/image-spaceport-portrait.jpg);
+  }
+  .launch-info-container .image-container.vehicle {
+    content: url(../assets/technology/image-launch-vehicle-portrait.jpg);
+  }
+  .launch-info-container .image-container.space-capsule {
+    content: url(../assets/technology/image-space-capsule-portrait.jpg);
+  }
+  .launch-info-container .launch-about {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem 8rem;
+  }
+  .launch-info-container .launch-about .launch-nav {
+    flex-direction: column;
+    margin: 0;
+    gap: 2rem;
+  }
+  .launch-info-container .launch-about .launch-nav a {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1rem;
+  }
+  .launch-info-container .launch-about .launch-text {
+    padding: 0;
+    text-align: left;
+    gap: 0.5rem;
+  }
+  .launch-info-container .launch-about .launch-text h4 {
+    font-size: 3.5rem;
+  }
+  .launch-info-container .launch-about .launch-text p {
+    line-height: 2rem;
+    padding-right: 2rem;
+  }
+}/*# sourceMappingURL=technology.css.map */

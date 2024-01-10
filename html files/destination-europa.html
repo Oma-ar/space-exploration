@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="../css files/main.css" />
+		<link rel="stylesheet" href="../css files/destination.css" />
+
+		<title>Frontend Mentor | Space tourism website</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<a href="../index.html"
+					><img src="../assets/shared/logo.svg" alt="logo"
+				/></a>
+				<div class="rectangle"></div>
+				<img
+					class="toggle-menu"
+					src="../assets/shared/icon-hamburger.svg"
+					alt=""
+				/>
+				<nav class="desktop-nav">
+					<ul role="list">
+						<li>
+							<a href="../index.html"><span>00</span> Home</a>
+						</li>
+						<li>
+							<a id="destination" href="destination-moon.html"
+								><span>01</span> Destination</a
+							>
+						</li>
+						<li>
+							<a href="crew-commander.html"><span>02</span> Crew</a>
+						</li>
+						<li>
+							<a href="technology-vehicle.html"><span>03</span> Technology</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="sidebar">
+					<ul role="list">
+						<li>
+							<a href="../index.html"><span>00</span> Home</a>
+						</li>
+						<li>
+							<a id="destination-sidebar" href="destination-moon.html"
+								><span>01</span> Destination</a
+							>
+						</li>
+						<li>
+							<a href="crew-commander.html"><span>02</span> Crew</a>
+						</li>
+						<li>
+							<a href="technology-vehicle.html"><span>03</span> Technology</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<section class="destination">
+				<div class="destination-container">
+					<div class="column-one">
+						<div class="pick-your-destination">
+							<span>03</span>
+							<h5>PICK YOUR DESTINATION</h5>
+						</div>
+						<div class="image-container">
+							<img src="../assets/destination/image-europa.png" alt="" />
+						</div>
+					</div>
+
+					<div class="column-two">
+						<nav class="mini-nav">
+							<ul role="list">
+								<li><a href="destination-moon.html">moon</a></li>
+								<li><a href="destination-mars.html">mars</a></li>
+								<li>
+									<a id="europa" href="destination-europa.html">europa</a>
+								</li>
+								<li>
+									<a href="destination-titan.html">titan</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="planet-text-container">
+							<h1>EUROPA</h1>
+							<p>
+								The smallest of the four Galilean moons orbiting Jupiter, Europa
+								is a winter lover’s dream. With an icy surface, it’s perfect for
+								a bit of ice skating, curling, hockey, or simple relaxation in
+								your snug wintery cabin.
+							</p>
+						</div>
+						<div class="rectangle"></div>
+						<div class="distance-time">
+							<div>
+								<span class="sub-header-two">AVG. DISTANCE</span>
+								<span class="sub-header-one">628 MIL. KM</span>
+							</div>
+							<div>
+								<span class="sub-header-two">EST. TRAVEL TIME</span>
+								<span class="sub-header-one">3 YEARS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="../js file/script.js"></script>
+	</body>
+</html>
